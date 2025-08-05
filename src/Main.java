@@ -83,6 +83,26 @@ System.out.println("A Long a width of" + Long.SIZE );
      System.out.println(myFalseBoolean);
         System.out.println(myTrueBoolean);
 
+
+
+        //     ==============================> String  <===============================
+        String myString = "This is a string";
+        System.out.println("I wish i had " + myString);
+
+//        int result = 5;
+//        result = result % 3;
+//       reszta z dzielenia
+
+
+        //     ==============================> OPERATORS  <===============================
+
+
+
+
+//         System.out.println(result);
+         int result = 10;
+         result +=1;
+         System.out.println(result);
     }
 }
 
