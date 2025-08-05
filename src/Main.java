@@ -13,7 +13,10 @@ System.out.println(All);
 
 
 
-        int myMinValue = Integer.MIN_VALUE;
+
+
+//     ==============================> VARIABLES INTEGER,BYTE,SHORT,LONG AND PRINT IN CONSOLE  <===============================
+int myMinValue = Integer.MIN_VALUE;
 int  myMaxValue = Integer.MAX_VALUE;
 System.out.println("Integer Value Range(" +  myMinValue + " to "  +   myMaxValue + ")");
 System.out.println("Byte Value Range(" +  Byte.MIN_VALUE + " to "  +   Byte.MAX_VALUE + ")");
@@ -29,6 +32,36 @@ System.out.println("A Long a width of" + Long.SIZE );
  System.out.println(myLongChalllenge);
 
 
+
+//     ==============================> FLOAT AND DOUBLE  <===============================
+
+
+//
+        System.out.println("Float Value Range("+ Float.MIN_VALUE + " to " + Float.MAX_VALUE );
+//        PRINT: Float Value Range(1.4E-45 to 3.4028235E38
+        System.out.println("Float SIZE " +Float.SIZE);
+//        PRINT:Float SIZE 32
+
+
+        System.out.println("Double Value Range("+ Double.MIN_VALUE + " to " + Double.MAX_VALUE);
+        System.out.println("Double SIZE " +Double.SIZE);
+//        Print:Double SIZE 64
+
+
+   //     ==============================> CONVERTED POUNDS TO KILOGRAMS  <===============================
+
+
+double Pounds = 200D;
+double OnePoundToKg = 0.45359237D;
+double ConvertPoundToKg = Pounds * OnePoundToKg;
+System.out.println(ConvertPoundToKg);
+
+
+
+
+
+
+System.out.println("Converted Pounds to KG = "+ConvertPoundToKg);
 
     }
 }
