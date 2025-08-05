@@ -16,6 +16,16 @@ System.out.println(All);
 
 
 //     ==============================> VARIABLES INTEGER,BYTE,SHORT,LONG AND PRINT IN CONSOLE  <===============================
+
+//        Byte – 8-bitowa liczba całkowita ze znakiem.
+//        Zakres wartości: od -128 do 127.
+//
+//        Short – 16-bitowa liczba całkowita ze znakiem.
+//        Zakres wartości: od -32768 do 32767.
+//
+//        Long – 64-bitowa liczba całkowita ze znakiem.
+//        Zakres wartości: od -9223372036854775808 do 9223372036854775807.
+
 int myMinValue = Integer.MIN_VALUE;
 int  myMaxValue = Integer.MAX_VALUE;
 System.out.println("Integer Value Range(" +  myMinValue + " to "  +   myMaxValue + ")");
@@ -34,7 +44,9 @@ System.out.println("A Long a width of" + Long.SIZE );
 
 
 //     ==============================> FLOAT AND DOUBLE  <===============================
-
+//             **float** (32 bity) – liczba zmiennoprzecinkow, precyzja ~7 cyfr, zakres ok. ±1.4e-45 do ±3.4e+38.
+//
+//             **double** (64 bity) – liczba zmiennoprzecinkow
 
 //
         System.out.println("Float Value Range("+ Float.MIN_VALUE + " to " + Float.MAX_VALUE );
@@ -48,20 +60,28 @@ System.out.println("A Long a width of" + Long.SIZE );
 //        Print:Double SIZE 64
 
 
-   //     ==============================> CONVERTED POUNDS TO KILOGRAMS  <===============================
+
+//     ==============================> CONVERTED POUNDS TO KILOGRAMS  <===============================
 
 
-double Pounds = 200D;
-double OnePoundToKg = 0.45359237D;
-double ConvertPoundToKg = Pounds * OnePoundToKg;
-System.out.println(ConvertPoundToKg);
-
-
-
+      double Pounds = 200D;
+      double OnePoundToKg = 0.45359237D;
+      double ConvertPoundToKg = Pounds * OnePoundToKg;
+      System.out.println("Converted Pounds to KG = "+ConvertPoundToKg);
 
 
 
-System.out.println("Converted Pounds to KG = "+ConvertPoundToKg);
+//     ==============================> CHAR AND BOOLEAN  <===============================
+
+     char myChar = '?';
+     char myInicodeChar = '\u003F';
+     char myDecimalChar = 63;
+     System.out.println("My Values are:"+myChar + myInicodeChar+ myDecimalChar);
+
+     boolean myTrueBoolean = true;
+     boolean myFalseBoolean = false;
+     System.out.println(myFalseBoolean);
+        System.out.println(myTrueBoolean);
 
     }
 }
