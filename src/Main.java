@@ -6,6 +6,7 @@ public class Main{
        int myFirstNumber = 35;
        int myTotal = 117;
        int myLastOne = 883;
+       short myMinShortValue = Short.MIN_VALUE ;
 
        int All = myFirstNumber + myThirdNumber + myFirstNumber + mySecoudNumber + myThirdNumber + myTotal + myLastOne;
 System.out.println(All);
@@ -19,6 +20,15 @@ System.out.println("Byte Value Range(" +  Byte.MIN_VALUE + " to "  +   Byte.MAX_
 System.out.println("Short Value Range (" + Short.MIN_VALUE + " to " + Short.MAX_VALUE + ")");
 System.out.println("Long Value Range ("+ Long.MIN_VALUE + " to " + Long.MAX_VALUE+ ")");
 System.out.println("A Long a width of" + Long.SIZE );
+ short myNewShortValue = (short) ( myMinShortValue / 2);
+ System.out.println(myNewShortValue);
+ byte myByteChallenge = 10;
+ short myShortChallenge = 20;
+ int myIntChallenge = 50;
+ long myLongChalllenge = (50000L + 10 * myByteChallenge + 10 * myShortChallenge + 10 * myIntChallenge );
+ System.out.println(myLongChalllenge);
+
+
 
     }
 }
