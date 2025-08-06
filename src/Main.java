@@ -1,18 +1,14 @@
-
-public class Main{
+public class Main {
     public static void main(String[] args) {
-       int mySecoudNumber = 12;
-       int myThirdNumber = 70;
-       int myFirstNumber = 35;
-       int myTotal = 117;
-       int myLastOne = 883;
-       short myMinShortValue = Short.MIN_VALUE ;
+        int mySecoudNumber = 12;
+        int myThirdNumber = 70;
+        int myFirstNumber = 35;
+        int myTotal = 117;
+        int myLastOne = 883;
+        short myMinShortValue = Short.MIN_VALUE;
 
-       int All = myFirstNumber + myThirdNumber + myFirstNumber + mySecoudNumber + myThirdNumber + myTotal + myLastOne;
-System.out.println(All);
-
-
-
+        int All = myFirstNumber + myThirdNumber + myFirstNumber + mySecoudNumber + myThirdNumber + myTotal + myLastOne;
+        System.out.println(All);
 
 
 //     ==============================> VARIABLES INTEGER,BYTE,SHORT,LONG AND PRINT IN CONSOLE  <===============================
@@ -26,21 +22,20 @@ System.out.println(All);
 //        Long – 64-bitowa liczba całkowita ze znakiem.
 //        Zakres wartości: od -9223372036854775808 do 9223372036854775807.
 
-int myMinValue = Integer.MIN_VALUE;
-int  myMaxValue = Integer.MAX_VALUE;
-System.out.println("Integer Value Range(" +  myMinValue + " to "  +   myMaxValue + ")");
-System.out.println("Byte Value Range(" +  Byte.MIN_VALUE + " to "  +   Byte.MAX_VALUE + ")");
-System.out.println("Short Value Range (" + Short.MIN_VALUE + " to " + Short.MAX_VALUE + ")");
-System.out.println("Long Value Range ("+ Long.MIN_VALUE + " to " + Long.MAX_VALUE+ ")");
-System.out.println("A Long a width of" + Long.SIZE );
- short myNewShortValue = (short) ( myMinShortValue / 2);
- System.out.println(myNewShortValue);
- byte myByteChallenge = 10;
- short myShortChallenge = 20;
- int myIntChallenge = 50;
- long myLongChalllenge = (50000L + 10 * myByteChallenge + 10 * myShortChallenge + 10 * myIntChallenge );
- System.out.println(myLongChalllenge);
-
+        int myMinValue = Integer.MIN_VALUE;
+        int myMaxValue = Integer.MAX_VALUE;
+        System.out.println("Integer Value Range(" + myMinValue + " to " + myMaxValue + ")");
+        System.out.println("Byte Value Range(" + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE + ")");
+        System.out.println("Short Value Range (" + Short.MIN_VALUE + " to " + Short.MAX_VALUE + ")");
+        System.out.println("Long Value Range (" + Long.MIN_VALUE + " to " + Long.MAX_VALUE + ")");
+        System.out.println("A Long a width of" + Long.SIZE);
+        short myNewShortValue = (short) (myMinShortValue / 2);
+        System.out.println(myNewShortValue);
+        byte myByteChallenge = 10;
+        short myShortChallenge = 20;
+        int myIntChallenge = 50;
+        long myLongChalllenge = (50000L + 10 * myByteChallenge + 10 * myShortChallenge + 10 * myIntChallenge);
+        System.out.println(myLongChalllenge);
 
 
 //     ==============================> FLOAT AND DOUBLE  <===============================
@@ -49,40 +44,37 @@ System.out.println("A Long a width of" + Long.SIZE );
 //             **double** (64 bity) – liczba zmiennoprzecinkow
 
 //
-        System.out.println("Float Value Range("+ Float.MIN_VALUE + " to " + Float.MAX_VALUE );
+        System.out.println("Float Value Range(" + Float.MIN_VALUE + " to " + Float.MAX_VALUE);
 //        PRINT: Float Value Range(1.4E-45 to 3.4028235E38
-        System.out.println("Float SIZE " +Float.SIZE);
+        System.out.println("Float SIZE " + Float.SIZE);
 //        PRINT:Float SIZE 32
 
 
-        System.out.println("Double Value Range("+ Double.MIN_VALUE + " to " + Double.MAX_VALUE);
-        System.out.println("Double SIZE " +Double.SIZE);
+        System.out.println("Double Value Range(" + Double.MIN_VALUE + " to " + Double.MAX_VALUE);
+        System.out.println("Double SIZE " + Double.SIZE);
 //        Print:Double SIZE 64
-
 
 
 //     ==============================> CONVERTED POUNDS TO KILOGRAMS  <===============================
 
 
-      double Pounds = 200D;
-      double OnePoundToKg = 0.45359237D;
-      double ConvertPoundToKg = Pounds * OnePoundToKg;
-      System.out.println("Converted Pounds to KG = "+ConvertPoundToKg);
-
+        double Pounds = 200D;
+        double OnePoundToKg = 0.45359237D;
+        double ConvertPoundToKg = Pounds * OnePoundToKg;
+        System.out.println("Converted Pounds to KG = " + ConvertPoundToKg);
 
 
 //     ==============================> CHAR AND BOOLEAN  <===============================
 
-     char myChar = '?';
-     char myInicodeChar = '\u003F';
-     char myDecimalChar = 63;
-     System.out.println("My Values are:"+myChar + myInicodeChar+ myDecimalChar);
+        char myChar = '?';
+        char myInicodeChar = '?';
+        char myDecimalChar = 63;
+        System.out.println("My Values are:" + myChar + myInicodeChar + myDecimalChar);
 
-     boolean myTrueBoolean = true;
-     boolean myFalseBoolean = false;
-     System.out.println(myFalseBoolean);
+        boolean myTrueBoolean = true;
+        boolean myFalseBoolean = false;
+        System.out.println(myFalseBoolean);
         System.out.println(myTrueBoolean);
-
 
 
         //     ==============================> String  <===============================
@@ -94,17 +86,71 @@ System.out.println("A Long a width of" + Long.SIZE );
 //       reszta z dzielenia
 
 
-        //     ==============================> OPERATORS  <===============================
-
-
+        //     ==============================> OPERATORS //+/-/*/+=/-=  <===============================
 
 
 //         System.out.println(result);
-         int result = 10;
-         result +=1;
-         System.out.println(result);
+        int result = 10;
+        result += 1; //add to result 1
+        System.out.println(result);
+
+        //     ==============================> IF AND(&& zwraca true jeeli 2 parametry są poprawne)  <===============================
+
+
+        boolean isAlien = false;
+        if (isAlien == false)
+            System.out.println("It is not Alien");
+
+        int topScore = 100;
+        if (topScore == 100) {
+            System.out.println("High score");
+        }
+
+
+        boolean isCar = false;
+        if (!isCar) {
+            System.out.println("This is not supposed to happen");
+
+
+        }
+
+
+//        && Musi byc 2 true
+
+        int secondTopScore = 60;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+
+//        || musi być minimum jedno true
+
+        if (secondTopScore == 10 || secondTopScore < 10) {
+            System.out.println("xd");
+        }
+
+
+        int age = 17;
+        boolean result2 = (age >= 18) ? true : false;
+        if (result2) {
+            System.out.println("ma 18");
+        } else {
+            System.out.println("nie ma");
+        }
+
+
+        int Age3 = 20;
+        String resultAge = (Age3 >= 18) ? "Ma 18 lat " : "Nie ma 18 ";
+
+
+        System.out.println(resultAge);
+
     }
 }
+
+
+
+
 
 
 
