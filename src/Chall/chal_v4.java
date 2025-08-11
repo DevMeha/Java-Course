@@ -9,9 +9,20 @@ public class chal_v4 {
                 return -1;
             } else {
 
-                return Math.round(kilometersPerHour * 0.621371);
+                return Math.round(kilometersPerHour / 1.609);
 
             }
+        }
+
+
+        public static void printConversion(double kilometersPerHour) {
+            if (kilometersPerHour < 0) {
+                System.out.println("Invalid Value");
+            } else {
+
+                System.out.println(kilometersPerHour + " km/h = " + SpeedConverter.toMilesPerHour(kilometersPerHour) + " mi/h");
+            }
+
         }
 
 
@@ -20,18 +31,16 @@ public class chal_v4 {
     public static void main(String[] args) {
 
 
-        System.out.println(SpeedConverter.toMilesPerHour(1.5));
-        System.out.println(SpeedConverter.toMilesPerHour(10.25));
-        System.out.println(SpeedConverter.toMilesPerHour(-5.6));
-        System.out.println(SpeedConverter.toMilesPerHour(25.42));
-        System.out.println(SpeedConverter.toMilesPerHour(75.114));
-
+        System.out.println(chal_v4.SpeedConverter.toMilesPerHour(1.5));
+        System.out.println(chal_v4.SpeedConverter.toMilesPerHour(10.25));
+        System.out.println(chal_v4.SpeedConverter.toMilesPerHour(-5.6));
+        System.out.println(chal_v4.SpeedConverter.toMilesPerHour(25.42));
+        System.out.println(chal_v4.SpeedConverter.toMilesPerHour(75.114));
+        SpeedConverter.printConversion(2);
 
     }
 
 }
-
-
 //Task
 
 
