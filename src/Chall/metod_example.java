@@ -82,3 +82,5 @@ PODSUMOWANIE:
 - int     → metoda musi zwrócić liczbę całkowitą (return <liczba>)
 - boolean → metoda musi zwrócić true/false (return true/false)
 */
+
+
