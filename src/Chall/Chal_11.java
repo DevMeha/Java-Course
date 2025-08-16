@@ -21,7 +21,7 @@ public class Chal_11 {
             // Krok 2: konwersja godzin na pełne dni
             long totalDays = hours / 24;
 
-            // Krok 3: obliczanie liczby pełnych lat (ile razy 365 zmieści się w totalDays)
+            // Krok 3: obliczanie liczby pełnych lat (ile razy 365 zmieści się w totalDays )
             long years = totalDays / 365;
 
             // Krok 4: obliczanie pozostałych dni po odjęciu pełnych lat
