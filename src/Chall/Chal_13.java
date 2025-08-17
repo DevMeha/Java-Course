@@ -1,6 +1,12 @@
 package Chall;
 
 public class Chal_13 {
+
+    public static void main(String[] args) {
+        System.out.println(isCatPlaying(false, 34));
+    }
+
+
     public static boolean isCatPlaying(boolean summer, int temperature) {
 
         // Jeśli temperatura mieści się między 25 a 35 (włącznie), kot się bawi
