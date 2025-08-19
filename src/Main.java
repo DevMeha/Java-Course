@@ -6,6 +6,8 @@ public class Main {
         int myTotal = 117;
         int myLastOne = 883;
         short myMinShortValue = Short.MIN_VALUE;
+        String result = getQuarter("April");
+
 
         int All = myFirstNumber + myThirdNumber + myFirstNumber + mySecoudNumber + myThirdNumber + myTotal + myLastOne;
         System.out.println(All);
@@ -90,9 +92,9 @@ public class Main {
 
 
 //         System.out.println(result);
-        int result = 10;
-        result += 1; //add to result 1
-        System.out.println(result);
+        int resultt = 10;
+        resultt += 1; //add to result 1
+        System.out.println(resultt);
 
         //     ==============================> IF AND(&& zwraca true jeeli 2 parametry są poprawne)  <===============================
 
@@ -206,10 +208,47 @@ public class Main {
                 break;
         }
 
-//        MORE CODE HERE
+
+        String result3 = getQuarter("April");
+        System.out.println(result3);
+
+    }
+
+    public static String getQuarter(String month) {
+
+
+        switch (month) {
+
+            case "January":
+            case "February":
+            case "March":
+                return "1st";
+
+
+            case "April":
+            case "May":
+            case "June":
+                return "2nd";
+
+
+            case "July":
+            case "August":
+            case "September":
+                return "3rd";
+
+            case "October":
+            case "November":
+            case "December":
+                return "4th";
+
+            default:
+                return "bad";
+        }
 
 
     }
+
+
 }
 
 
