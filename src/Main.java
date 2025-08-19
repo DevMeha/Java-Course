@@ -209,8 +209,8 @@ public class Main {
         }
 
 
-        String result3 = getQuarter("April");
-        System.out.println(result3);
+        String result3 = getQuarter("lutas");
+        System.out.println("April");
 
     }
 
@@ -222,7 +222,12 @@ public class Main {
             case "April", "May", "June" -> "2nd";
             case "July", "August", "September" -> "3rd";
             case "October", "November", "December" -> "4th";
-            default -> "bad";
+            default -> {
+                String badResponse = month + "is bad";
+                yield badResponse;
+
+
+            }
         };
 
 
