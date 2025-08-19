@@ -209,8 +209,11 @@ public class Main {
         }
 
 
-        String result3 = getQuarter("lutas");
-        System.out.println("April");
+        String result3 = getQuarter("April");
+        System.out.println(result3);
+
+        String numberOut = litery('z');
+        System.out.println("Pełna nazwa to: " + numberOut);
 
     }
 
@@ -233,6 +236,17 @@ public class Main {
 
     }
 
+
+    public static String litery(char numberPrint) {
+        return switch (numberPrint) {
+            case 'A' -> "Able";
+            case 'B' -> "Baker";
+            case 'C' -> "Charlie";
+            case 'D' -> "Dog";
+            case 'E' -> "Easy";
+            default -> "Zły wpis";
+        };
+    }
 
 }
 
