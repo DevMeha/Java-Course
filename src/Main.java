@@ -237,16 +237,45 @@ public class Main {
     }
 
 
+//    public static String litery(char numberPrint) {
+//        return switch (numberPrint) {
+//            case 'A' -> "Able";
+//            case 'B' -> "Baker";
+//            case 'C' -> "Charlie";
+//            case 'D' -> "Dog";
+//            case 'E' -> "Easy";
+//            default -> "Zły wpis";
+//        };
+//    }
+
+
     public static String litery(char numberPrint) {
-        return switch (numberPrint) {
-            case 'A' -> "Able";
-            case 'B' -> "Baker";
-            case 'C' -> "Charlie";
-            case 'D' -> "Dog";
-            case 'E' -> "Easy";
-            default -> "Zły wpis";
-        };
+
+        switch (numberPrint) {
+            case 'A':
+                return "A is able";
+
+            case 'B':
+                return "B is Baker";
+
+            case 'C':
+                return "C is Charlie";
+
+            case 'D':
+                return "D is Dog";
+
+            case 'E':
+                return "E is Easy";
+
+            default:
+                return "Error number";
+         
+
+        }
+
+
     }
+
 
 }
 
