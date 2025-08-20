@@ -212,8 +212,17 @@ public class Main {
         String result3 = getQuarter("April");
         System.out.println(result3);
 
-        String numberOut = litery('z');
-        System.out.println("Pełna nazwa to: " + numberOut);
+        String numberOut = litery('A');
+        if (!numberOut.equals("Error number")) {
+
+            System.out.println("Pełna nazwa to: " + numberOut);
+
+        } else {
+
+            System.out.println("Error");
+
+
+        }
 
     }
 
@@ -269,7 +278,7 @@ public class Main {
 
             default:
                 return "Error number";
-         
+
 
         }
 
