@@ -186,6 +186,8 @@ public class Main {
 //            System.out.println("Was not 1 or 2");
 //
 //
+
+
 //        }
 
 
@@ -224,6 +226,8 @@ public class Main {
 
         }
 
+
+        loop();
     }
 
     public static String getQuarter(String month) {
@@ -285,6 +289,21 @@ public class Main {
 
     }
 
+
+    //     ==============================> LOOP <===============================
+
+
+    public static void loop() {
+
+        for (
+                int counter = 1;
+                counter <= 5; counter++) {
+
+            System.out.println(counter);
+
+        }
+
+    }
 
 }
 
